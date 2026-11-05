@@ -3,7 +3,7 @@ $(function() {
   $(window).scroll(function() {
     // 現在のスクロール位置に応じてメニューのハイライトを変更
     // 1〜4のセクションを順番にチェック
-    for (let i = 1; i <= 4; i++) {
+    for (let i = 1; i <= 6; i++) {
       // スクロール位置がセクションの位置を超えたら
       if ($("section:nth-child(" + i + ")").offset().top < $(window).scrollTop() + 100) {
         // 現在のセクションに対応するメニュー項目をハイライト
