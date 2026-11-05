@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: #523434;
+  background: #757575;
   margin: 0;
 }
 
@@ -13,12 +13,12 @@ body {
 header {
   position: fixed;
   width: 250px;
-  background: #ecc23d;
+  background: #fff;
 }
 
 header h1 {
   padding: 70px 25px;
-  color: #de7e27;
+  color: #000;
   font-size: 2.5em;
   line-height: 1.1em;
   font-weight: bold;
@@ -36,12 +36,13 @@ nav a {
   display: block;
   padding: 25px;
   font-weight: bold;
-  color: #ecc23d;
-  background: #de7e27;
+  color: #fff;
+  background: #db0202;
   text-decoration: none;
 }
 nav li.current a {
-  color: #fff;
+  color: #db0202;
+  background: #fff;
 }
 
 main {
@@ -52,13 +53,17 @@ section {
   margin-bottom: 100px;
 }
 section h2 {
-  color: #de7e27;
+  color: #db0202;
   font-size: 2.5em;
   font-weight: bold;
   margin-bottom: 40px;
 }
+h5 {
+  color: #757575;
+  font-weight: bold;
+}
 p {
   margin-bottom: 30px;
   line-height: 2;
-  color: #343752;
+  color: #000;
 }
