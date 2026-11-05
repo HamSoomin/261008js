@@ -5,7 +5,7 @@ $(function() {
     // 1〜4のセクションを順番にチェック
     for (let i = 1; i <= 6; i++) {
       // スクロール位置がセクションの位置を超えたら
-      if ($("section:nth-child(" + i + ")").offset().top < $(window).scrollTop() + 100) {
+      if ($("section:nth-child(" + i + ")").offset().top < $(window).scrollTop() + 30) {
         // 現在のセクションに対応するメニュー項目をハイライト
         $("nav li").removeClass("current");  // 既存のハイライトを削除
 
